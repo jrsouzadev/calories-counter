@@ -3,9 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-import firebase from "./firebase";
-
-console.log(firebase.SDK_VERSION);
+import { analytics } from "./firebase";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
